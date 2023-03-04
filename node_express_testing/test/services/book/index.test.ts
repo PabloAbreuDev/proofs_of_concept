@@ -1,7 +1,4 @@
-import { MongoMemoryServer } from "mongodb-memory-server";
-import { IBook } from "../../../models/book";
 import { BookService } from "../../../services/book";
-import { connectDB, dropDB, dropCollections } from "../../setuptestdb";
 
 describe("Bookservice test", () => {
   it("Should create a book", async () => {
